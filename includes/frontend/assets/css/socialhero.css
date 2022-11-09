@@ -1,0 +1,55 @@
+.socialhero-api {
+    display: block;
+    background: #f3f3f3;
+    padding: 40px 30px;
+    margin: 0 0 30px;
+}
+.socialhero-api .socialHeroApiInner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.socialhero-api .socialHeroApiInner input {
+    max-width: calc(100% - 160px);
+    flex: 0 0 calc(100% - 160px);
+    border: 0;
+    outline: none;
+    height: 40px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+}
+.socialhero-api .socialHeroApiInner button.button {
+    max-width: 150px;
+    flex: 0 0 150px;
+    cursor: pointer;
+    border: 0;
+    height: 40px;
+    padding: 5px 15px;
+}
+.socialhero-api p.socialhero-error {
+    margin: 0 0 3px;
+    font-size: 14px;
+    color: red;
+    text-align: left;
+}
+.socialhero-api p.socialhero-couponapplied {
+    margin: 0 0 3px;
+    font-size: 14px;
+    color: green;
+    text-align: left;
+    font-weight:bold;
+}
+@media (max-width:479px){
+.socialhero-api .socialHeroApiInner input {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-bottom:10px;
+}
+.socialhero-api .socialHeroApiInner button.button {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.socialhero-api {
+    padding: 30px 20px;
+}
+}
